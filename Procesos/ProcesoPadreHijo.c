@@ -4,7 +4,7 @@
 
 int main()
 {
-	/*PROCESO PADRE HIJO FORK*/
+	/*PROCESO PADRE HIJO (FORK)*/
 
         puts("\n .:ESTE PROGRAMA MUESTRA EL PROCESO PADRE E HIJO:.\n");
 	pid_t pid;
