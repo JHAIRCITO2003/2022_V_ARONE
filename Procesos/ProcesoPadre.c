@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 int main()
-{	
+{
+	/*Proceso PADRE*/	
 	pid_t id_proceso_padre;
-	puts("\n ==ESTE PROGRAMA MUESTRA EL IDENTIICADOR DE UN PROCESO PADRE==\n);
+	puts("\n .:ESTE PROGRAMA MUESTRA EL IDENTIFICADOR DE UN PROCESO PADRE:.\n");
 	
 	id_proceso_padre = getppid();
 	
